@@ -7,6 +7,21 @@ Models mentioned in lecture notes:
 - Ridge Regression (Assumes training data has zero mean! Penalizes use of large coefficients)
 - The Lasso (Penalizes large error less)
 
+Other models:
+-------------
+- Decision Tree Regression (Breaks data into smaller sets, but changes in data change the entire structure and may cause it to become unstable)
+- Random Forest (Uses multiple decision trees)
+- Support Vector Machines (Can solve both linear and non-linear problems. SVMs are not at all suitable for predicting values for large training sets. SVM fails when data has more noise)
+- Bayesian Linear Regression (Like both Linear Regression and Ridge Regression but more stable than the simple Linear Regression)
+- Stepwise Regression (Used when we deal with multiple independent variables.)
+- Neural Network Regression (You all must be aware of the power of neural networks in making predictions/assumptions)
+- Elastic Net Regression (ElasticNet is hybrid of Lasso and Ridge Regression techniques. It is trained with L1 and L2 prior as regularizer. Elastic-net is useful when there are multiple features which are correlated)
+
+Models we MAY check out:
+------------------------
+- JackKnife Regression
+- Ecological Regression
+
 We need to:
 -----------
 1. Implement the different models
