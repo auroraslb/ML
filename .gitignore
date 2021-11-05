@@ -1,1 +1,7 @@
 virtual-env
+classification/classification1/Xtest_Classification_Part1.npy
+classification/classification1/Xtrain_Classification_Part1.npy
+classification/classification1/Ytrain_Classification_Part1.npy
+classification/classification2/Xtest_Classification_Part2.npy
+classification/classification2/Xtrain_Classification_Part2.npy
+classification/classification2/Ytrain_Classification_Part2.npy
